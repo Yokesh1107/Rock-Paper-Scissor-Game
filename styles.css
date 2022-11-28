@@ -1,0 +1,50 @@
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgba(14, 12, 32, 0.986);
+}
+body h1{
+    font-size: 40px;
+    background:linear-gradient(to left,orange,red,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+#rps{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+#rps button{
+    border-radius: 10px;
+}
+.displayComponent{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(24, 189, 139);
+}
+#rps button:hover{
+    box-shadow: 2px 3px red;
+    transition: 0.5s;
+}
+#stop {
+   padding-top: 50px;
+   padding-left: 600px;
+   
+}
+#stop button{
+    color: red;
+    padding: 15px;
+    border-radius: 20px;
+}
+#stop button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+#rps img{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
